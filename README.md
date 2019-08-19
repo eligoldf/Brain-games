@@ -13,3 +13,6 @@ Brain even game:
 
 [![asciicast](https://asciinema.org/a/eBHjinGBxOX8XwVJ7X00tmjH6.svg)](https://asciinema.org/a/eBHjinGBxOX8XwVJ7X00tmjH6)
 
+Brain calculator game:
+
+[![asciicast](https://asciinema.org/a/pTqLP6HXGl9XEq3gow2fRrMNY.svg)](https://asciinema.org/a/pTqLP6HXGl9XEq3gow2fRrMNY)

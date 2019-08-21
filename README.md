@@ -16,3 +16,16 @@ Brain even game:
 Brain calculator game:
 
 [![asciicast](https://asciinema.org/a/pTqLP6HXGl9XEq3gow2fRrMNY.svg)](https://asciinema.org/a/pTqLP6HXGl9XEq3gow2fRrMNY)
+
+Brain GCD game: 
+
+[![asciicast](https://asciinema.org/a/KN7IS9tynlnHeAalIi0glgsRc.svg)](https://asciinema.org/a/KN7IS9tynlnHeAalIi0glgsRc)
+
+Brain Progression game: 
+
+[![asciicast](https://asciinema.org/a/mJnnavGE0Iv4JqMrKdN6TpXWA.svg)](https://asciinema.org/a/mJnnavGE0Iv4JqMrKdN6TpXWA)
+
+Brain Prime game: 
+
+[![asciicast](https://asciinema.org/a/peR6DSbl4fVkudgBn9VolHAsc.svg)](https://asciinema.org/a/peR6DSbl4fVkudgBn9VolHAsc)
+

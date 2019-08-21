@@ -7,7 +7,7 @@
 
 Brain games installation:
 
-<script id="asciicast-w5gthm2gvpLSuVQnQHe9b1HVl" src="https://asciinema.org/a/w5gthm2gvpLSuVQnQHe9b1HVl.js" async></script>
+[![asciicast](https://asciinema.org/a/w5gthm2gvpLSuVQnQHe9b1HVl.svg)](https://asciinema.org/a/w5gthm2gvpLSuVQnQHe9b1HVl)
 
 Brain even game:
 

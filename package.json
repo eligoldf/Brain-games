@@ -1,6 +1,6 @@
 {
   "name": "brain-games",
-  "version": "1.0.6",
+  "version": "1.6.0",
   "description": "Small console games",
   "main": "index.js",
   "bin": {
@@ -41,7 +41,6 @@
     "eslint-plugin-import": "^2.18.2"
   },
   "dependencies": {
-    "@hexlet/pairs": "^1.0.10",
     "readline-sync": "^1.4.10"
   }
 }

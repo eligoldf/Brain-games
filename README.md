@@ -11,7 +11,7 @@ Brain games installation:
 
 Brain even game:
 
-[![asciicast](https://asciinema.org/a/eBHjinGBxOX8XwVJ7X00tmjH6.svg)](https://asciinema.org/a/eBHjinGBxOX8XwVJ7X00tmjH6)
+[![asciicast](https://asciinema.org/a/FF4JZ11BlCsM800SKJzOVJdYE.svg)](https://asciinema.org/a/FF4JZ11BlCsM800SKJzOVJdYE)
 
 Brain calculator game:
 

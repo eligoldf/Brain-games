@@ -3,23 +3,28 @@ import makeRandomNumber from '../functions/randomNumber';
 
 const gameInstruction = 'What number is missing in the progression?';
 
-const playBrainProgression = () => {
-  const length = 10;
-  const arr = [];
-  const arrIndex = makeRandomNumber(1, 10);
-  let startProgression = makeRandomNumber(1, 10);
-  const stepOfProgression = makeRandomNumber(1, 10);
+const brainProgressionGame = () => {
+  const makeProgressionNumber = (start, scope, step) => start + (scope * (step - 1));
 
-  for (let i = 0; i < length; i += 1) {
-    arr[i] = startProgression + (stepOfProgression * i);
-    startProgression += stepOfProgression;
-  }
+  const makeProgression = (start, scope, step) => {
+    let result = '';
+    for (let i = 1; i < 10; i += 1) {
+      if (i === step) {
+        result += ' ..';
+      } else {
+        result += ` ${makeProgressionNumber(start, scope, i)}`;
+      }
+    }
+    return result;
+  };
 
-  const getRightAnswer = String(arr[arrIndex]);
-  arr[arrIndex] = '..';
-  const setQuestion = arr.join(' ');
+  const firstNumber = makeRandomNumber(1, 10);
+  const difference = makeRandomNumber(1, 5);
+  const hiddenNumber = makeRandomNumber(1, 10);
+  const question = makeProgression(firstNumber, difference, hiddenNumber);
+  const rightAnswer = String(makeProgressionNumber(firstNumber, difference, hiddenNumber));
 
-  return { setQuestion, getRightAnswer };
+  return { question, rightAnswer };
 };
 
-export default () => playGame(gameInstruction, playBrainProgression);
+export default () => playGame(gameInstruction, brainProgressionGame);

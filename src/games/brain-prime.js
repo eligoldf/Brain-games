@@ -1,14 +1,20 @@
 import playGame from '../index';
 import makeRandomNumber from '../functions/randomNumber';
-import checkIsPrime from '../functions/isPrime';
 
 const gameInstruction = 'Answer "yes" if given number is prime. Otherwise answer "no".';
 
-const playBrainPrime = () => {
-  const setQuestion = makeRandomNumber(1, 100);
-  const getRightAnswer = checkIsPrime(setQuestion) ? 'yes' : 'no';
+const brainPrimeGame = () => {
+  const isPrime = (num) => {
+    for (let i = 2; i < num; i += 1) {
+      if (num % i === 0) return false;
+    }
+    return num > 1;
+  };
 
-  return { setQuestion, getRightAnswer };
+  const question = makeRandomNumber(1, 100);
+  const rightAnswer = isPrime(question) ? 'yes' : 'no';
+
+  return { question, rightAnswer };
 };
 
-export default () => playGame(gameInstruction, playBrainPrime);
+export default () => playGame(gameInstruction, brainPrimeGame);

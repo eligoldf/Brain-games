@@ -27,7 +27,7 @@ const questionAndAnswer = () => {
   const position = makeRandomNumber(minNumber, maxNumber);
 
   const question = makeProgression(start, difference, position);
-  const rightAnswer = String(makeProgressionNumber(start, difference, position));
+  const rightAnswer = `${start + difference * position}`;
 
   return { question, rightAnswer };
 };

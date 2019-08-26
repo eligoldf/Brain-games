@@ -1,6 +1,6 @@
 import readlineSync from 'readline-sync';
 
-const userAttempt = 3;
+const pointsCount = 3;
 
 const playGame = (gameInstruction, gameTask) => {
   console.log('Welcome to the Brain Games!');
@@ -9,7 +9,7 @@ const playGame = (gameInstruction, gameTask) => {
   console.log(`Hello, ${userName}!`);
 
   const iter = (count) => {
-    if (count >= userAttempt) {
+    if (count >= pointsCount) {
       console.log(`Congratulation, ${userName}`);
       return count;
     }

@@ -11,7 +11,7 @@ const playGame = (gameInstruction, gameTask) => {
   const iter = (count) => {
     if (count >= userAttempt) {
       console.log(`Congratulation, ${userName}`);
-      return;
+      return count;
     }
     const { question, rightAnswer } = gameTask();
     console.log(`Question: ${question}`);

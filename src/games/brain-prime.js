@@ -13,7 +13,7 @@ export const isPrime = (num) => {
 };
 
 const questionAndAnswer = () => {
-  const question = makeRandomNumber(1, 100);
+  const question = makeRandomNumber(1, 10);
   const rightAnswer = isPrime(question) ? 'yes' : 'no';
 
   return { question, rightAnswer };

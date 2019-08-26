@@ -12,8 +12,11 @@ export const isPrime = (num) => {
   return true;
 };
 
+const minNumber = 1;
+const maxNumber = 100;
+
 const questionAndAnswer = () => {
-  const question = makeRandomNumber(1, 10);
+  const question = makeRandomNumber(minNumber, maxNumber);
   const rightAnswer = isPrime(question) ? 'yes' : 'no';
 
   return { question, rightAnswer };

@@ -18,10 +18,14 @@ const makeProgression = (start, difference, position) => {
   return result;
 };
 
+const minNumber = 1;
+const maxNumber = 10;
+
 const questionAndAnswer = () => {
-  const start = makeRandomNumber(1, 10);
-  const difference = makeRandomNumber(1, 5);
-  const position = makeRandomNumber(1, 10);
+  const start = makeRandomNumber(minNumber, maxNumber);
+  const difference = makeRandomNumber(minNumber, maxNumber);
+  const position = makeRandomNumber(minNumber, maxNumber);
+
   const question = makeProgression(start, difference, position);
   const rightAnswer = String(makeProgressionNumber(start, difference, position));
 

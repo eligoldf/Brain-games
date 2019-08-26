@@ -1,9 +1,9 @@
 import playGame from '../index';
-import makeRandomNumber from '../functions/randomNumber';
+import makeRandomNumber from '../utils';
 
 const gameInstruction = 'Find the greatest common divisor of given numbers.';
 
-const brainGcdGame = () => {
+const questionAndAnswer = () => {
   const findGcd = (num1, num2) => {
     if (num2 === 0) {
       return num1;
@@ -18,4 +18,4 @@ const brainGcdGame = () => {
   return { question, rightAnswer };
 };
 
-export default () => playGame(gameInstruction, brainGcdGame);
+export default () => playGame(gameInstruction, questionAndAnswer);

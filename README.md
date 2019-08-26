@@ -13,7 +13,7 @@ Brain even game:
 
 Brain calculator game:
 
-[![asciicast](https://asciinema.org/a/pTqLP6HXGl9XEq3gow2fRrMNY.svg)](https://asciinema.org/a/pTqLP6HXGl9XEq3gow2fRrMNY)
+[![asciicast](https://asciinema.org/a/2hnvKTEzGyten5IaHnKQeSLtN.svg)](https://asciinema.org/a/2hnvKTEzGyten5IaHnKQeSLtN)
 
 Brain GCD game: 
 

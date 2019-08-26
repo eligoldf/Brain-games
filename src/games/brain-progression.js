@@ -3,8 +3,6 @@ import makeRandomNumber from '../utils';
 
 const gameInstruction = 'What number is missing in the progression?';
 
-const makeProgressionNumber = (start, difference, position) => start + difference * position;
-
 const makeProgression = (start, difference, position) => {
   let result = '';
   const progressionStep = 10;

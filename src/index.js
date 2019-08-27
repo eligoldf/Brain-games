@@ -11,19 +11,22 @@ const playGame = (gameInstruction, gameTask) => {
   const iter = (count) => {
     if (count >= pointsCount) {
       console.log(`Congratulation, ${userName}`);
-      return count;
+      return;
     }
+
     const { question, rightAnswer } = gameTask();
     console.log(`Question: ${question}`);
     const playerAnswer = readlineSync.question('Your answer: ');
-    if (playerAnswer === rightAnswer) {
-      console.log('Correct!');
-      return iter(count + 1);
+
+    if (playerAnswer !== rightAnswer) {
+      console.log(`${playerAnswer} is wrong answer ;(. Correct answer was ${rightAnswer}.`);
+      console.log(`Let's try again, ${userName}!`);
+      return;
     }
-    console.log(`${playerAnswer} is wrong answer ;(. Correct answer was ${rightAnswer}.`);
-    console.log(`Let's try again, ${userName}!`);
-    return iter(count);
+    console.log('Correct');
+    iter(count + 1);
   };
-  return iter(0);
+  iter(0);
 };
+
 export default playGame;

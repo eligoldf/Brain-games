@@ -2,7 +2,6 @@
   "name": "brain-games111",
   "version": "1.7.0",
   "description": "Small console games",
-  "main": "",
   "bin": {
     "brain-games": "dist/bin/brain-games.js",
     "brain-even": "dist/bin/brain-even.js",
@@ -23,6 +22,9 @@
     "type": "git",
     "url": "git+https://github.com/eligoldf/frontend-project-lvl1.git"
   },
+  "keywords": [
+    "brain-games"
+  ],
   "author": "Eli Goldfeder",
   "license": "ISC",
   "bugs": {

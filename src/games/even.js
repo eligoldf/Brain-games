@@ -1,16 +1,18 @@
-import playGame from '../index';
+import playGame from '..';
 import makeRandomNumber from '../utils';
 
 const gameInstruction = 'Answer "yes" if number even otherwise answer "no".';
 
+const isEven = (num) => (num % 2 === 0 ? 'yes' : 'no');
+
 const minNumber = 1;
 const maxNumber = 100;
 
-const questionAndAnswer = () => {
+const createQuestionAndAnswer = () => {
   const question = makeRandomNumber(minNumber, maxNumber);
-  const rightAnswer = question % 2 === 0 ? 'yes' : 'no';
+  const rightAnswer = isEven(question);
 
   return { question, rightAnswer };
 };
 
-export default () => playGame(gameInstruction, questionAndAnswer);
+export default () => playGame(gameInstruction, createQuestionAndAnswer);

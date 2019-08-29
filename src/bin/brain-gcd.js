@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import questionAndAnswer from '../games/brain-gcd';
+import createQuestionAndAnswer from '../games/gcd';
 
-questionAndAnswer();
+createQuestionAndAnswer();

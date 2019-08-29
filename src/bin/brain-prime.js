@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import questionAndAnswer from '../games/brain-prime';
+import createQuestionAndAnswer from '../games/prime';
 
-questionAndAnswer();
+createQuestionAndAnswer();

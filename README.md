@@ -28,6 +28,7 @@ $ brain-calc
 [![asciicast](https://asciinema.org/a/vuZ4iMcOwspCBES9mWNQiwyzw.svg)](https://asciinema.org/a/vuZ4iMcOwspCBES9mWNQiwyzw)
 
 **Brain GCD game:**
+
 Player need to find greatest common divisor from of given numbers.
 Start game: 
 ```
@@ -36,6 +37,7 @@ $ brain-gcd
 [![asciicast](https://asciinema.org/a/3I7tzjNiDuB719IpJZGNJglhd.svg)](https://asciinema.org/a/3I7tzjNiDuB719IpJZGNJglhd)
 
 **Brain Progression game:**
+
 Player need to find missing number in the progression.
 Start game: 
 ```
@@ -44,6 +46,7 @@ $ brain-progression
 [![asciicast](https://asciinema.org/a/uvFb3sCt7rOoagQNyzYW1cTVl.svg)](https://asciinema.org/a/uvFb3sCt7rOoagQNyzYW1cTVl)
 
 **Brain Prime game:**
+
 Player need to answer "yes" or "no" if given number is prime.
 Start game:
 ```

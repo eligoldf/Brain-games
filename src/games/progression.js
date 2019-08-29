@@ -1,4 +1,4 @@
-import playGame from '..';
+import startGame from '..';
 import makeRandomNumber from '../utils';
 
 const gameInstruction = 'What number is missing in the progression?';
@@ -33,4 +33,4 @@ const createQuestionAndAnswer = () => {
   return { question, rightAnswer };
 };
 
-export default () => playGame(gameInstruction, createQuestionAndAnswer);
+export default () => startGame(gameInstruction, createQuestionAndAnswer);

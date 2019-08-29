@@ -3,27 +3,51 @@
 
 [![Build Status](https://travis-ci.org/eligoldf/frontend-project-lvl1.svg?branch=master)](https://travis-ci.org/eligoldf/frontend-project-lvl1)
 
-Brain games installation:
+** Brain games installation: **
+```
+$ npm link brain-games
+```
+[![asciicast](https://asciinema.org/a/7v3USI2Wj9hIEvpaU8y7bSPo4.svg)](https://asciinema.org/a/7v3USI2Wj9hIEvpaU8y7bSPo4)
 
-[![asciicast](https://asciinema.org/a/FjrZEDoMwjvDYeaFGDS7Plg8t.svg)](https://asciinema.org/a/FjrZEDoMwjvDYeaFGDS7Plg8t)
+** Brain even game: **
 
-Brain even game:
+Player need to answer "yes" if the number is even or "no" if not.
+Start game: 
+```
+$ brain-even
+```
+[![asciicast](https://asciinema.org/a/pD8ynPe6MaMQCXeV3v2WTK2Pe.svg)](https://asciinema.org/a/pD8ynPe6MaMQCXeV3v2WTK2Pe)
 
-[![asciicast](https://asciinema.org/a/FF4JZ11BlCsM800SKJzOVJdYE.svg)](https://asciinema.org/a/FF4JZ11BlCsM800SKJzOVJdYE)
+** Brain calculator game: **
 
-Brain calculator game:
+Player need to calculate result of the expression.
+Start game:
+```
+$ brain-calc
+```
+[![asciicast](https://asciinema.org/a/vuZ4iMcOwspCBES9mWNQiwyzw.svg)](https://asciinema.org/a/vuZ4iMcOwspCBES9mWNQiwyzw)
 
-[![asciicast](https://asciinema.org/a/2hnvKTEzGyten5IaHnKQeSLtN.svg)](https://asciinema.org/a/2hnvKTEzGyten5IaHnKQeSLtN)
+** Brain GCD game: **
+Player need to find greatest common divisor from of given numbers.
+Start game: 
+```
+$ brain-gcd
+```
+[![asciicast](https://asciinema.org/a/3I7tzjNiDuB719IpJZGNJglhd.svg)](https://asciinema.org/a/3I7tzjNiDuB719IpJZGNJglhd)
 
-Brain GCD game: 
+** Brain Progression game: **
+Player need to find missing number in the progression.
+Start game: 
+```
+$ brain-progression
+```
+[![asciicast](https://asciinema.org/a/uvFb3sCt7rOoagQNyzYW1cTVl.svg)](https://asciinema.org/a/uvFb3sCt7rOoagQNyzYW1cTVl)
 
-[![asciicast](https://asciinema.org/a/KN7IS9tynlnHeAalIi0glgsRc.svg)](https://asciinema.org/a/KN7IS9tynlnHeAalIi0glgsRc)
-
-Brain Progression game: 
-
-[![asciicast](https://asciinema.org/a/mJnnavGE0Iv4JqMrKdN6TpXWA.svg)](https://asciinema.org/a/mJnnavGE0Iv4JqMrKdN6TpXWA)
-
-Brain Prime game: 
-
-[![asciicast](https://asciinema.org/a/peR6DSbl4fVkudgBn9VolHAsc.svg)](https://asciinema.org/a/peR6DSbl4fVkudgBn9VolHAsc)
+** Brain Prime game: **
+Player need to answer "yes" or "no" if given number is prime.
+Start game:
+```
+$ brain-prime
+```
+[![asciicast](https://asciinema.org/a/0yVvaI32AEzMJPi00eUxvUbjl.svg)](https://asciinema.org/a/0yVvaI32AEzMJPi00eUxvUbjl)
 

@@ -21,12 +21,12 @@ const makeCalculator = (num1, num2, operator) => {
 
 const minNumber = 1;
 const maxNumber = 100;
-const firstOperatorPlace = 0;
+const firstOperator = 0;
 
 const createQuestionAndAnswer = () => {
   const number1 = makeRandomNumber(minNumber, maxNumber);
   const number2 = makeRandomNumber(minNumber, maxNumber);
-  const operator = operators[makeRandomNumber(firstOperatorPlace, operators.length - 1)];
+  const operator = operators[makeRandomNumber(firstOperator, operators.length - 1)];
 
   const question = `${number1} ${operator} ${number2}`;
   const rightAnswer = `${makeCalculator(number1, number2, operator)}`;

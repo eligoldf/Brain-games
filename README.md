@@ -12,6 +12,7 @@ $ npm link brain-games
 **Brain even game:**
 
 Player need to answer "yes" if the number is even or "no" if not.
+
 Start game: 
 ```
 $ brain-even
@@ -21,6 +22,7 @@ $ brain-even
 **Brain calculator game:**
 
 Player need to calculate result of the expression.
+
 Start game:
 ```
 $ brain-calc
@@ -30,6 +32,7 @@ $ brain-calc
 **Brain GCD game:**
 
 Player need to find greatest common divisor from of given numbers.
+
 Start game: 
 ```
 $ brain-gcd
@@ -39,6 +42,7 @@ $ brain-gcd
 **Brain Progression game:**
 
 Player need to find missing number in the progression.
+
 Start game: 
 ```
 $ brain-progression
@@ -48,6 +52,7 @@ $ brain-progression
 **Brain Prime game:**
 
 Player need to answer "yes" or "no" if given number is prime.
+
 Start game:
 ```
 $ brain-prime

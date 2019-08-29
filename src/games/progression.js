@@ -13,7 +13,7 @@ const makeProgression = (start, difference, missingNumber) => {
     if (i === missingNumber) {
       result = `${result} ..`;
     } else {
-      result = `${result} ${start + difference * i}`;
+      result = `${result} ${progressionNumber(start, difference, i)}`;
     }
   }
   return result;

@@ -23,7 +23,9 @@
     "url": "git+https://github.com/eligoldf/frontend-project-lvl1.git"
   },
   "keywords": [
-    "brain-games"
+    "games",
+    "logic games",
+    "cli games"
   ],
   "author": "Eli Goldfeder",
   "license": "ISC",

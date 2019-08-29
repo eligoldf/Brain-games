@@ -5,6 +5,8 @@ const gameInstruction = 'What number is missing in the progression?';
 
 const progressionLength = 10;
 
+const progressionNumber = (start, difference, number) => start + difference * number;
+
 const makeProgression = (start, difference, missingNumber) => {
   let result = '';
   for (let i = 0; i <= progressionLength; i += 1) {
@@ -26,7 +28,7 @@ const createQuestionAndAnswer = () => {
   const missingNumber = makeRandomNumber(minNumber, maxNumber);
 
   const question = makeProgression(start, difference, missingNumber);
-  const rightAnswer = `${start + difference * missingNumber}`;
+  const rightAnswer = String(progressionNumber(start, difference, missingNumber));
 
   return { question, rightAnswer };
 };

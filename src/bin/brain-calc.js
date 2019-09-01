@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import createQuestionAndAnswer from '../games/calc';
+import askQuestionAndAnswer from '../games/calc';
 
-createQuestionAndAnswer();
+askQuestionAndAnswer();

@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import createQuestionAndAnswer from '../games/prime';
+import askQuestionAndAnswer from '../games/prime';
 
-createQuestionAndAnswer();
+askQuestionAndAnswer();

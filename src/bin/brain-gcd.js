@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import createQuestionAndAnswer from '../games/gcd';
+import askQuestionAndAnswer from '../games/gcd';
 
-createQuestionAndAnswer();
+askQuestionAndAnswer();

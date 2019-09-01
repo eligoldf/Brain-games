@@ -6,11 +6,17 @@ const gameInstruction = 'Answer "yes" if number even otherwise answer "no".';
 const isEven = (num) => num % 2 === 0;
 
 const min = 1;
-const max = 99;
+const max = 100;
 
 const askQuestionAndAnswer = () => {
   const question = makeRandomNumber(min, max);
-  const rightAnswer = isEven(question) ? 'yes' : 'no';
+  let rightAnswer = '';
+
+  if (isEven(question)) {
+    rightAnswer = 'yes';
+  } else {
+    rightAnswer = 'no';
+  }
 
   return { question, rightAnswer };
 };

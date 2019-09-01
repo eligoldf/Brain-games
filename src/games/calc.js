@@ -1,11 +1,11 @@
-import startGame from '..';
+import playGame from '..';
 import makeRandomNumber from '../utils';
 
 const gameInstruction = 'What is the result of the expression?';
 
 const operators = ['+', '-', '*'];
 
-const makeCalculator = (num1, num2, operator) => {
+const makeCalculate = (num1, num2, operator) => {
   switch (operator) {
     case '+':
       return num1 + num2;
@@ -19,19 +19,18 @@ const makeCalculator = (num1, num2, operator) => {
   return operator;
 };
 
-const minNumber = 1;
-const maxNumber = 100;
-const firstOperator = 0;
+const min = 1;
+const max = 100;
 
-const createQuestionAndAnswer = () => {
-  const number1 = makeRandomNumber(minNumber, maxNumber);
-  const number2 = makeRandomNumber(minNumber, maxNumber);
-  const operator = operators[makeRandomNumber(firstOperator, operators.length - 1)];
+const askQuestionAndAnswer = () => {
+  const number1 = makeRandomNumber(min, max);
+  const number2 = makeRandomNumber(min, max);
+  const operator = operators[makeRandomNumber(0, operators.length - 1)];
 
   const question = `${number1} ${operator} ${number2}`;
-  const rightAnswer = `${makeCalculator(number1, number2, operator)}`;
+  const rightAnswer = `${makeCalculate(number1, number2, operator)}`;
 
   return { question, rightAnswer };
 };
 
-export default () => startGame(gameInstruction, createQuestionAndAnswer);
+export default () => playGame(gameInstruction, askQuestionAndAnswer);

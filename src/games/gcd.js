@@ -1,4 +1,4 @@
-import startGame from '..';
+import playGame from '..';
 import makeRandomNumber from '../utils';
 
 const gameInstruction = 'Find the greatest common divisor of given numbers.';
@@ -10,12 +10,12 @@ const findGcd = (num1, num2) => {
   return findGcd(num2, num1 % num2);
 };
 
-const minNumber = 1;
-const maxNumber = 100;
+const min = 1;
+const max = 100;
 
-const createQuestionAndAnswer = () => {
-  const number1 = makeRandomNumber(minNumber, maxNumber);
-  const number2 = makeRandomNumber(minNumber, maxNumber);
+const askQuestionAndAnswer = () => {
+  const number1 = makeRandomNumber(min, max);
+  const number2 = makeRandomNumber(min, max);
 
   const question = `${number1} ${number2}`;
   const rightAnswer = String(findGcd(number1, number2));
@@ -23,4 +23,4 @@ const createQuestionAndAnswer = () => {
   return { question, rightAnswer };
 };
 
-export default () => startGame(gameInstruction, createQuestionAndAnswer);
+export default () => playGame(gameInstruction, askQuestionAndAnswer);

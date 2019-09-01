@@ -1,4 +1,4 @@
-import startGame from '..';
+import playGame from '..';
 import makeRandomNumber from '../utils';
 
 const gameInstruction = 'Answer "yes" if given number is prime. Otherwise answer "no".';
@@ -15,14 +15,14 @@ const isPrime = (num) => {
   return true;
 };
 
-const minNumber = 1;
-const maxNumber = 100;
+const min = 1;
+const max = 100;
 
-const createQuestionAndAnswer = () => {
-  const question = makeRandomNumber(minNumber, maxNumber);
+const askQuestionAndAnswer = () => {
+  const question = makeRandomNumber(min, max);
   const rightAnswer = isPrime(question) ? 'yes' : 'no';
 
   return { question, rightAnswer };
 };
 
-export default () => startGame(gameInstruction, createQuestionAndAnswer);
+export default () => playGame(gameInstruction, askQuestionAndAnswer);

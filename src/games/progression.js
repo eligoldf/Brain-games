@@ -17,9 +17,9 @@ const startGame = () => {
 
   for (let i = 0; i <= progressionLength; i += 1) {
     if (i === missingIndexElement) {
-      question = `${question} ..`;
+      question = `${question}..`;
     } else {
-      question = `${question} ${start + difference * i}`;
+      question = `${question} ${start + difference * i} `;
     }
   }
 

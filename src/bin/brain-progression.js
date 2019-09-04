@@ -1,4 +1,4 @@
 #!/usr/bin/env node
-import askQuestionAndAnswer from '../games/progression';
+import startGame from '../games/progression';
 
-askQuestionAndAnswer();
+startGame();

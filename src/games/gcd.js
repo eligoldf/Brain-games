@@ -13,7 +13,7 @@ const findGcd = (num1, num2) => {
 const min = 1;
 const max = 100;
 
-const startGame = () => {
+const askQuestionAndAnswer = () => {
   const number1 = makeRandomNumber(min, max);
   const number2 = makeRandomNumber(min, max);
 
@@ -23,4 +23,4 @@ const startGame = () => {
   return { question, rightAnswer };
 };
 
-export default () => playGame(gameInstruction, startGame);
+export default () => playGame(gameInstruction, askQuestionAndAnswer);

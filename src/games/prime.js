@@ -18,11 +18,11 @@ const isPrime = (num) => {
 const min = 1;
 const max = 100;
 
-const startGame = () => {
+const askQuestionAndAnswer = () => {
   const question = makeRandomNumber(min, max);
   const rightAnswer = isPrime(question) ? 'yes' : 'no';
 
   return { question, rightAnswer };
 };
 
-export default () => playGame(gameInstruction, startGame);
+export default () => playGame(gameInstruction, askQuestionAndAnswer);

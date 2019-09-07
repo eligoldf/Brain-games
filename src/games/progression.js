@@ -17,7 +17,7 @@ const askQuestionAndAnswer = () => {
 
   for (let i = 0; i <= progressionLength; i += 1) {
     if (i === missingElementIndex) {
-      question = `${question} ..`.trim();
+      question = `${question} ..`;
     } else {
       question = `${question} ${start + difference * i} `.trim();
     }

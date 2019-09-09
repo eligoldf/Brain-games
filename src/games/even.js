@@ -8,11 +8,11 @@ const isEven = (num) => num % 2 === 0;
 const min = 1;
 const max = 100;
 
-const askQuestionAndAnswer = () => {
+const getQuestionAndAnswer = () => {
   const question = makeRandomNumber(min, max);
   const rightAnswer = isEven(question) ? 'yes' : 'no';
 
   return { question, rightAnswer };
 };
 
-export default () => playGame(gameInstruction, askQuestionAndAnswer);
+export default () => playGame(gameInstruction, getQuestionAndAnswer);

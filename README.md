@@ -1,4 +1,5 @@
 **Brain Games**
+
 [![Maintainability](https://api.codeclimate.com/v1/badges/d4f1a132b08f40df0f68/maintainability)](https://codeclimate.com/github/eligoldf/frontend-project-lvl1/maintainability)
 
 [![Build Status](https://travis-ci.org/eligoldf/frontend-project-lvl1.svg?branch=master)](https://travis-ci.org/eligoldf/frontend-project-lvl1)
